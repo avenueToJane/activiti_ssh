@@ -142,12 +142,12 @@
 		    	<div align="left" class="STYLE21">
 					流程名称：<s:textfield name="filename" cssClass="width: 200px;"/><!-- <input type="text" name="filename" style="width: 200px;"/> --><br/>
 					流程文件:<s:file name="file" cssClass="width: 200px;"/><!-- <input type="file" name="file" style="width: 200px;"/> --><br/>
-					<input type="submit" value="上传流程" class="button_ok"/>
+					<!-- <button type="submit" value="上传流程" class="button_ok"/> -->
+					<button  type="submit">上传流程</button>
 				</div>
 		    </td>
 		  </tr>
 	</table>
-		
 	</form>
 </body>
 </html>

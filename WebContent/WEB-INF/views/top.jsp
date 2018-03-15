@@ -58,8 +58,8 @@ body {
 	        </table></td>
 	        <td width="260" background="${pageContext.request.contextPath }/images/main_11.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
 	          <tr>
-	            <td width="16%"><span class="STYLE5"></span></td>
-	            <td width="84%"><div align="center"><span class="STYLE7">
+	            <td width="10%"><span class="STYLE5"></span></td>
+	            <td width="90%"><div align="center"><span class="STYLE7">
 				<div id="test"></div>
 				<script >
 					setInterval("document.getElementById('test').innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());",100);
