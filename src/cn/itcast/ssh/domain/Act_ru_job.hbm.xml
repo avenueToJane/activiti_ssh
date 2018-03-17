@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="cn.itcast.ssh.domain">
+<class name="Act_ru_job" table="act_ru_job">
+	<id name="ID_" type="string" column="ID_">
+		 <generator class="native"/>
+	</id>
+	<property name="REV_" type="string" column="REV_" />
+	<property name="TYPE_" type="string" column="TYPE_" />
+	<property name="LOCK_EXP_TIME_" type="date" column="LOCK_EXP_TIME_" />
+	<property name="LOCK_OWNER_" type="string" column="LOCK_OWNER_" />
+	<property name="EXCLUSIVE_" type="int" column="EXCLUSIVE_" />
+	<property name="EXECUTION_ID_" type="string" column="EXECUTION_ID_" />
+	<property name="PROCESS_INSTANCE_ID_" type="string" column="PROCESS_INSTANCE_ID_" />
+	<property name="PROC_DEF_ID_" type="string" column="PROC_DEF_ID_" />
+	<property name="RETRIES_" type="int" column="RETRIES_" />
+	<property name="EXCEPTION_STACK_ID_" type="string" column="EXCEPTION_STACK_ID_" />
+	<property name="EXCEPTION_MSG_" type="string" column="EXCEPTION_MSG_" />
+	<property name="DUEDATE_" type="date" column="DUEDATE_" />
+	<property name="REPEAT_" type="string" column="REPEAT_" />
+	<property name="HANDLER_TYPE_" type="string" column="HANDLER_TYPE_" />
+	
+	<property name="HANDLER_CFG_" type="string" column="HANDLER_CFG_" />
+	
+	
+		
+</class>
+</hibernate-mapping>

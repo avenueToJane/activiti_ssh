@@ -21,5 +21,30 @@
 	<bean id="workflowAction" class="cn.itcast.ssh.web.action.WorkflowAction" scope="prototype">
 		<property name="workflowService" ref="workflowService"></property>
 		<property name="leaveBillService" ref="leaveBillService"></property>
+		<property name="act_ge_bytearrayService" ref="act_ge_bytearrayService"></property>
+		<property name="act_ge_propertyService" ref="act_ge_propertyService"></property>
+		<property name="act_hi_actinstService" ref="act_hi_actinstService"></property>
+		
+		<property name="act_hi_attachmentService" ref="act_hi_attachmentService"></property>
+		<property name="act_hi_commentService" ref="act_hi_commentService"></property>
+		<property name="act_hi_detailService" ref="act_hi_detailService"></property>
+		<property name="act_hi_identitylinkService" ref="act_hi_identitylinkService"></property>
+		<property name="act_hi_procinstService" ref="act_hi_procinstService"></property>
+		<property name="act_hi_taskinstService" ref="act_hi_taskinstService"></property>
+		<property name="act_hi_varinstService" ref="act_hi_varinstService"></property>
+		<property name="act_id_groupService" ref="act_id_groupService"></property>
+		<property name="act_id_infoService" ref="act_id_infoService"></property>
+		<property name="act_id_membershipService" ref="act_id_membershipService"></property>
+		<property name="act_id_userService" ref="act_id_userService"></property>
+		<property name="act_re_deploymentService" ref="act_re_deploymentService"></property>
+		<property name="act_re_modelService" ref="act_re_modelService"></property>
+		<property name="act_re_procdefService" ref="act_re_procdefService"></property>
+		<property name="act_ru_event_subscrService" ref="act_ru_event_subscrService"></property>
+		<property name="act_ru_executionService" ref="act_ru_executionService"></property>
+		<property name="act_ru_identitylinkService" ref="act_ru_identitylinkService"></property>
+		<property name="act_ru_jobService" ref="act_ru_jobService"></property>
+		<property name="act_ru_taskService" ref="act_ru_taskService"></property>
+		<property name="act_ru_variableService" ref="act_ru_variableService"></property>
 	</bean>
+	
 </beans>

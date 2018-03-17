@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="cn.itcast.ssh.domain">
+<class name="Act_hi_procinst" table="act_hi_procinst">
+	<id name="ID_" type="string" column="ID_">
+		 <generator class="native"/>
+	</id>
+	<property name="PROC_INST_ID_" type="string" column="PROC_INST_ID_" />
+	<property name="BUSINESS_KEY_" type="string" column="BUSINESS_KEY_" />
+	<property name="PROC_DEF_ID_" type="string" column="PROC_DEF_ID_" />
+	<property name="START_TIME_" type="date" column="START_TIME_" />
+	<property name="END_TIME_" type="date" column="END_TIME_" />
+	<property name="DURATION_" type="int" column="DURATION_" />
+	<property name="START_USER_ID_" type="string" column="START_USER_ID_" />
+	<property name="START_ACT_ID_" type="string" column="START_ACT_ID_" />
+	<property name="END_ACT_ID_" type="string" column="END_ACT_ID_" />
+	<property name="SUPER_PROCESS_INSTANCE_ID_" type="string" column="SUPER_PROCESS_INSTANCE_ID_" />
+	<property name="DELETE_REASON_" type="string" column="DELETE_REASON_" />
+	
+		
+</class>
+</hibernate-mapping>

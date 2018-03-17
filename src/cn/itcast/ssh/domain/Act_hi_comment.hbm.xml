@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="cn.itcast.ssh.domain">
+<class name="Act_hi_comment" table="act_hi_comment">
+	<id name="ID_" type="string" column="ID_">
+		 <generator class="native"/>
+	</id>
+	  <property name="TYPE_" type="string" column="TYPE_" />
+	  <property name="TIME_" type="date" column="TIME_" />
+	  <property name="USER_ID_" type="string" column="USER_ID_" />
+	  <property name="TASK_ID_" type="string" column="TASK_ID_" />
+	  <property name="PROC_INST_ID_" type="string" column="PROC_INST_ID_" />
+	  <property name="ACTION_" type="string" column="ACTION_" />
+	  <property name="MESSAGE_" type="string" column="MESSAGE_" />
+	  <property name="FULL_MSG_" type="java.sql.Blob" column="FULL_MSG_" />
+	  
+</class>
+</hibernate-mapping>
+

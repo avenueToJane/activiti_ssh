@@ -5,8 +5,15 @@ import java.io.InputStream;
 import java.util.List;
 import java.util.Map;
 
+import org.activiti.engine.history.HistoricActivityInstance;
+import org.activiti.engine.history.HistoricDetail;
+import org.activiti.engine.history.HistoricProcessInstance;
+import org.activiti.engine.history.HistoricTaskInstance;
+import org.activiti.engine.history.HistoricVariableInstance;
 import org.activiti.engine.repository.Deployment;
+import org.activiti.engine.repository.Model;
 import org.activiti.engine.repository.ProcessDefinition;
+import org.activiti.engine.runtime.Execution;
 import org.activiti.engine.task.Comment;
 import org.activiti.engine.task.Task;
 
@@ -45,6 +52,26 @@ public interface IWorkflowService {
 	ProcessDefinition findProcessDefinitionByTaskId(String taskId);
 
 	Map<String, Object> findCoordingByTask(String taskId);
+
+	List<HistoricActivityInstance> findHistoricActivityInstanceList();
+
+	List<HistoricDetail> findHistoricDetailList();
+
+	List<HistoricProcessInstance> findHistoricProcessInstanceList();
+
+	List<HistoricTaskInstance> findHistoricTaskInstanceList();
+
+	List<HistoricVariableInstance> findHistoricVariableInstanceList();
+
+	List<Deployment> findReDeploymentList();
+
+	List<ProcessDefinition> findReProcessDefinitionList();
+
+	List<Model> findReModelList();
+
+	List<Execution> findRuExecutionList();
+
+	List<Task> findRuTaskList();
 
 	
 

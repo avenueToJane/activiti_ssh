@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="cn.itcast.ssh.domain">
+<class name="Act_ge_property" table="act_ge_property">
+	<id name="name_" type="string" column="NAME_">
+		 <generator class="native"/>
+	</id>
+	<property name="rev_" type="int" column="REV_" />
+	<property name="value_" type="string" column="VALUE_" unique="true"/>
+</class>
+</hibernate-mapping>

@@ -27,4 +27,90 @@
 		<property name="historyService" ref="historyService"></property>
 		<property name="leaveBillDao" ref="leaveBillDao"></property>
 	</bean>
+	<bean id="act_ge_bytearrayService" class="cn.itcast.ssh.service.impl.Act_ge_bytearrayServiceImpl">
+		<property name="act_ge_bytearrayDao" ref="act_ge_bytearrayDao"></property>
+	</bean>
+	
+	<bean id="act_ge_propertyService" class="cn.itcast.ssh.service.impl.Act_ge_propertyServiceImpl">
+		<property name="act_ge_propertyDao" ref="act_ge_propertyDao"></property>
+	</bean>
+	<bean id="act_hi_actinstService" class="cn.itcast.ssh.service.impl.Act_hi_actinstServiceImpl">
+		<property name="act_hi_actinstDao" ref="act_hi_actinstDao"></property>
+	</bean>
+	
+	
+	<bean id="act_hi_attachmentService" class="cn.itcast.ssh.service.impl.Act_hi_attachmentServiceImpl">
+		<property name="act_hi_attachmentDao" ref="act_hi_attachmentDao"></property>
+	</bean>
+	<bean id="act_hi_commentService" class="cn.itcast.ssh.service.impl.Act_hi_commentServiceImpl">
+		<property name="act_hi_commentDao" ref="act_hi_commentDao"></property>
+	</bean>
+	<bean id="act_hi_detailService" class="cn.itcast.ssh.service.impl.Act_hi_detailServiceImpl">
+		<property name="act_hi_detailDao" ref="act_hi_detailDao"></property>
+	</bean>
+	<bean id="act_hi_identitylinkService" class="cn.itcast.ssh.service.impl.Act_hi_identitylinkServiceImpl">
+		<property name="act_hi_identitylinkDao" ref="act_hi_identitylinkDao"></property>
+	</bean>
+	<bean id="act_hi_procinstService" class="cn.itcast.ssh.service.impl.Act_hi_procinstServiceImpl">
+		<property name="act_hi_procinstDao" ref="act_hi_procinstDao"></property>
+	</bean>
+	<bean id="act_hi_taskinstService" class="cn.itcast.ssh.service.impl.Act_hi_taskinstServiceImpl">
+		<property name="act_hi_taskinstDao" ref="act_hi_taskinstDao"></property>
+	</bean>
+	<bean id="act_hi_varinstService" class="cn.itcast.ssh.service.impl.Act_hi_varinstServiceImpl">
+		<property name="act_hi_varinstDao" ref="act_hi_varinstDao"></property>
+	</bean>
+	
+	
+	
+	
+	<bean id="act_id_groupService" class="cn.itcast.ssh.service.impl.Act_id_groupServiceImpl">
+		<property name="act_id_groupDao" ref="act_id_groupDao"></property>
+	</bean>
+	<bean id="act_id_infoService" class="cn.itcast.ssh.service.impl.Act_id_infoServiceImpl">
+		<property name="act_id_infoDao" ref="act_id_infoDao"></property>
+	</bean>
+	<bean id="act_id_membershipService" class="cn.itcast.ssh.service.impl.Act_id_membershipServiceImpl">
+		<property name="act_id_membershipDao" ref="act_id_membershipDao"></property>
+	</bean>
+	<bean id="act_id_userService" class="cn.itcast.ssh.service.impl.Act_id_userServiceImpl">
+		<property name="act_id_userDao" ref="act_id_userDao"></property>
+	</bean>
+	
+	
+	
+	<bean id="act_re_deploymentService" class="cn.itcast.ssh.service.impl.Act_re_deploymentServiceImpl">
+		<property name="act_re_deploymentDao" ref="act_re_deploymentDao"></property>
+	</bean>
+	<bean id="act_re_modelService" class="cn.itcast.ssh.service.impl.Act_re_modelServiceImpl">
+		<property name="act_re_modelDao" ref="act_re_modelDao"></property>
+	</bean>
+	<bean id="act_re_procdefService" class="cn.itcast.ssh.service.impl.Act_re_procdefServiceImpl">
+		<property name="act_re_procdefDao" ref="act_re_procdefDao"></property>
+	</bean>
+	
+	
+	
+	<bean id="act_ru_event_subscrService" class="cn.itcast.ssh.service.impl.Act_ru_event_subscrServiceImpl">
+		<property name="act_ru_event_subscrDao" ref="act_ru_event_subscrDao"></property>
+	</bean>
+	<bean id="act_ru_executionService" class="cn.itcast.ssh.service.impl.Act_ru_executionServiceImpl">
+		<property name="act_ru_executionDao" ref="act_ru_executionDao"></property>
+	</bean>
+	<bean id="act_ru_identitylinkService" class="cn.itcast.ssh.service.impl.Act_ru_identitylinkServiceImpl">
+		<property name="act_ru_identitylinkDao" ref="act_ru_identitylinkDao"></property>
+	</bean>
+	<bean id="act_ru_jobService" class="cn.itcast.ssh.service.impl.Act_ru_jobServiceImpl">
+		<property name="act_ru_jobDao" ref="act_ru_jobDao"></property>
+	</bean>
+	<bean id="act_ru_taskService" class="cn.itcast.ssh.service.impl.Act_ru_taskServiceImpl">
+		<property name="act_ru_taskDao" ref="act_ru_taskDao"></property>
+	</bean>
+	<bean id="act_ru_variableService" class="cn.itcast.ssh.service.impl.Act_ru_variableServiceImpl">
+		<property name="act_ru_variableDao" ref="act_ru_variableDao"></property>
+	</bean>
+	
+	
+	
+	
 </beans>

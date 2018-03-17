@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="cn.itcast.ssh.domain">
+<class name="Act_re_procdef" table="act_re_procdef">
+	<id name="ID_" type="string" column="ID_">
+		 <generator class="native"/>
+	</id>
+	<property name="REV_" type="int" column="REV_" />
+	<property name="CATEGORY_" type="string" column="CATEGORY_" />
+	<property name="NAME_" type="string" column="NAME_" />
+	<property name="VERSION_" type="int" column="VERSION_" />
+	<property name="DEPLOYMENT_ID_" type="string" column="DEPLOYMENT_ID_" />
+	<property name="RESOURCE_NAME_" type="string" column="RESOURCE_NAME_" />
+	<property name="DGRM_RESOURCE_NAME_" type="string" column="DGRM_RESOURCE_NAME_" />
+	<property name="DESCRIPTION_" type="string" column="DESCRIPTION_" />
+	<property name="HAS_START_FORM_KEY_" type="int" column="HAS_START_FORM_KEY_" />
+	<property name="SUSPENSION_STATE_" type="int" column="SUSPENSION_STATE_" />
+	
+	
+</class>
+</hibernate-mapping>

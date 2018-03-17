@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="cn.itcast.ssh.domain">
+<class name="Act_id_user" table="act_id_user">
+	<id name="ID_" type="string" column="ID_">
+		 <generator class="native"/>
+	</id>
+	  <property name="REV_" type="string" column="REV_" />
+	   <property name="FIRST_" type="string" column="FIRST_" />
+	    <property name="LAST_" type="string" column="LAST_" />
+	     <property name="EMAIL_" type="string" column="EMAIL_" />
+	      <property name="PWD_" type="string" column="PWD_" />
+	       <property name="PICTURE_ID_" type="string" column="PICTURE_ID_" />
+</class>
+</hibernate-mapping>

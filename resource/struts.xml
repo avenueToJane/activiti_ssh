@@ -51,6 +51,66 @@
         	<result name="deployHome">WEB-INF/views/workflow/workflow.jsp</result>
         	<result name="task">WEB-INF/views/workflow/task.jsp</result>
         	<result name="image">WEB-INF/views/workflow/image.jsp</result>
+        	<result name="viewWelcome">WEB-INF/views/workflow/viewWelcome.jsp</result>
+        	<result name="viewTable">WEB-INF/views/workflow/viewTable.jsp</result>
+        	<!-- 23张表======================================================================= -->
+        	<!-- =流程存储表3张表 -->
+        	<result name="viewDeployment">WEB-INF/views/workflow/viewDeployment.jsp</result>
+        	<result name="viewProcessDefinition">WEB-INF/views/workflow/viewProcessDefinition.jsp</result>
+        	<result name="viewAct_re_procdef">WEB-INF/views/workflow/viewAct_re_procdef.jsp</result>
+        	<!-- 3 -->
+        	<result name="viewAct_re_deployment">WEB-INF/views/workflow/viewAct_re_deployment.jsp</result>
+        	<result name="viewAct_re_model">WEB-INF/views/workflow/viewAct_re_model.jsp</result>
+        	<result name="viewModel">WEB-INF/views/workflow/viewModel.jsp</result>
+        	
+        	
+        	<!--=历史数据表8张表  -->
+        	<result name="viewHistoricActivityInstance">WEB-INF/views/workflow/viewHistoricActivityInstance.jsp</result>
+        	<result name="viewHistoricDetail">WEB-INF/views/workflow/viewHistoricDetail.jsp</result>
+        	<result name="viewHistoricTaskInstance">WEB-INF/views/workflow/viewHistoricTaskInstance.jsp</result>
+        	<result name="viewHistoricProcessInstance">WEB-INF/views/workflow/viewHistoricProcessInstance.jsp</result>
+        	<result name="viewHistoricVariableInstance">WEB-INF/views/workflow/viewHistoricVariableInstance.jsp</result>
+        	
+        	
+        	<!--8  -->
+        	<result name="viewAct_hi_actinst">WEB-INF/views/workflow/viewAct_hi_actinst.jsp</result>
+        	<result name="viewAct_hi_attachment">WEB-INF/views/workflow/viewAct_hi_attachment.jsp</result>
+        	<result name="viewAct_hi_comment">WEB-INF/views/workflow/viewAct_hi_comment.jsp</result>
+        	<result name="viewAct_hi_detail">WEB-INF/views/workflow/viewAct_hi_detail.jsp</result>
+        	<result name="viewAct_hi_identitylink">WEB-INF/views/workflow/viewAct_hi_identitylink.jsp</result>
+        	<result name="viewAct_hi_procinst">WEB-INF/views/workflow/viewAct_hi_procinst.jsp</result>
+        	<result name="viewAct_hi_taskinst">WEB-INF/views/workflow/viewAct_hi_taskinst.jsp</result>
+        	<result name="viewAct_hi_varinst">WEB-INF/views/workflow/viewAct_hi_varinst.jsp</result>
+        	
+        	<!-- 运行时数据表6张表 -->
+        	<result name="viewExecution">WEB-INF/views/workflow/viewExecution.jsp</result>
+        	<result name="viewTask">WEB-INF/views/workflow/viewTask.jsp</result>
+        	
+        	<!--  6-->
+        	<result name="viewAct_ru_event_subscr">WEB-INF/views/workflow/viewAct_ru_event_subscr.jsp</result>
+        	<result name="viewAct_ru_execution">WEB-INF/views/workflow/viewAct_ru_execution.jsp</result>
+        	<result name="viewAct_ru_identitylink">WEB-INF/views/workflow/viewAct_ru_identitylink.jsp</result>
+        	<result name="viewAct_ru_job">WEB-INF/views/workflow/viewAct_ru_job.jsp</result>
+        	<result name="viewAct_ru_task">WEB-INF/views/workflow/viewAct_ru_task.jsp</result>
+        	<result name="viewAct_ru_variable">WEB-INF/views/workflow/viewAct_ru_variable.jsp</result>
+        	
+        	
+        	
+        	
+        	<!-- 身份数据数据表4张表(组织机构表) -->
+        	<!-- 4 -->
+        	<result name="viewAct_id_group">WEB-INF/views/workflow/viewAct_id_group.jsp</result>
+        	<result name="viewAct_id_info">WEB-INF/views/workflow/viewAct_id_info.jsp</result>
+        	<result name="viewAct_id_user">WEB-INF/views/workflow/viewAct_id_user.jsp</result>
+        	<result name="viewAct_id_membership">WEB-INF/views/workflow/viewAct_id_membership.jsp</result>
+        	
+        	<!-- =通用数据表2张表 -->
+        	<!-- 2 -->
+        	<result name="viewAct_ge_bytearray">WEB-INF/views/workflow/viewAct_ge_bytearray.jsp</result>
+        	<result name="viewAct_ge_property">WEB-INF/views/workflow/viewAct_ge_property.jsp</result>
+        	
+        	<!-- 23张表======================================================================= -->
+        	
         	<result name="listTask" type="redirectAction">
     			<param name="actionName">workflowAction_listTask.action</param>
             </result>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="cn.itcast.ssh.domain">
+<class name="Act_ru_event_subscr" table="act_ru_event_subscr">
+	<id name="ID_" type="string" column="ID_">
+		 <generator class="native"/>
+	</id>
+	<property name="REV_" type="int" column="REV_" />
+	<property name="EVENT_TYPE_" type="string" column="EVENT_TYPE_" />
+	<property name="EVENT_NAME_" type="string" column="EVENT_NAME_" />
+	<property name="EXECUTION_ID_" type="string" column="EXECUTION_ID_" />
+	<property name="PROC_INST_ID_" type="string" column="PROC_INST_ID_" />
+	<property name="ACTIVITY_ID_" type="string" column="ACTIVITY_ID_" />
+	<property name="CONFIGURATION_" type="string" column="CONFIGURATION_" />
+	<property name="CREATED_" type="date" column="CREATED_" />
+
+</class>
+</hibernate-mapping>

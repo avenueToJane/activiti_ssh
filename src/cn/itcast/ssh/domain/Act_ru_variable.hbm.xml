@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="cn.itcast.ssh.domain">
+	<class name="Act_ru_variable" table="act_ru_variable">
+		<id name="ID_" type="string" column="ID_">
+			<generator class="native" />
+		</id>
+		<property name="REV_" type="int" column="REV_" />
+		<property name="TYPE_" type="string" column="TYPE_" />
+		<property name="NAME_" type="string" column="NAME_" />
+		<property name="EXECUTION_ID_" type="string" column="EXECUTION_ID_" />
+		<property name="PROC_INST_ID_" type="string" column="PROC_INST_ID_" />
+		<property name="TASK_ID_" type="string" column="TASK_ID_" />
+		<property name="BYTEARRAY_ID_" type="string" column="BYTEARRAY_ID_" />
+		<property name="DOUBLE_" type="double" column="DOUBLE_" />
+		<property name="LONG_" type="int" column="LONG_" />
+		<property name="TEXT_" type="string" column="TEXT_" />
+		<property name="TEXT2_" type="string" column="TEXT2_" />
+
+	</class>
+</hibernate-mapping>

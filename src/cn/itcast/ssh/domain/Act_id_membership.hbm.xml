@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="cn.itcast.ssh.domain">
+<class name="Act_id_membership" table="act_id_membership">
+	<id name="USER_ID_" type="string" column="USER_ID_">
+		 <generator class="native"/>
+	</id>
+	  <property name="GROUP_ID_" type="int" column="GROUP_ID_" />
+	   
+</class>
+</hibernate-mapping>
